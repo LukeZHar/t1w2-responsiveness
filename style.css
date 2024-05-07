@@ -1,0 +1,12 @@
+/* Default style for small screens and anyything not caught by media */
+body{
+    background-color: #4d4949;
+    color: white;
+}
+
+/* styled for screen 600px wide or larger*/
+@media screen and (min-width: 600px) {
+    body{
+        background-color: rgb(63, 59, 54);
+    }
+}
